@@ -7,7 +7,9 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.dayachettri.eas",
@@ -44,7 +46,9 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "experiments": {
       "typedRoutes": true
     },
@@ -53,7 +57,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "ce835f12-2a46-4ffe-b124-ce54d4314b01"
+        "projectId": "2c85144f-0f48-473d-9158-23e679e9bd6d"
       }
     },
     "runtimeVersion": {

@@ -1,13 +1,13 @@
 import { StyleSheet } from 'react-native';
-
-import { WebView } from 'react-native-webview';
+import { Text, View } from '@/components/Themed';
 
 export default function TabOneScreen() {
   return (
-    <WebView
-      style={styles.container}
-      source={{ uri: 'https://www.google.com' }}
-    />
+    <View style={styles.container}>
+      <Text lightColor="#000" darkColor="#eee">
+        Tab One
+      </Text>
+    </View>
   );
 }
 
