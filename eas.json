@@ -1,26 +1,19 @@
 {
   "cli": {
-    "version": ">= 7.2.0"
+    "version": ">= 7.3.0"
   },
   "build": {
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "ios": {
-        "simulator": true
-      },
       "channel": "development"
     },
     "preview": {
       "distribution": "internal",
-      "ios": {
-        "simulator": true
-      },
       "channel": "preview"
     },
     "production": {
-      "channel": "production",
-      "autoIncrement": true
+      "channel": "production"
     }
   },
   "submit": {

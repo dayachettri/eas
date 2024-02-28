@@ -117,7 +117,7 @@ export const TaskItem: React.FC<TaskItemProps> = ({
             paddingLeft: 12,
             paddingRight: 24,
           }}
-          onPress={() => handleRemoveTask(task.id)}
+          // onPress={() => handleRemoveTask(task.id)}
         >
           <Image style={{ opacity: isEditing ? 0.4 : 1 }} source={trashIcon} />
         </TouchableOpacity>
